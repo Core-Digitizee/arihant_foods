@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --primary-background: #f5c21e;
+    --primary-foreground: #121722;
+    --primary-light: #ffdd57;
+    --primary-dark: #b18f0a;
+
+    /* Secondary Colors */
+    --secondary-background: #ffffff;
+    --secondary-foreground: #333333;
+    --secondary-light: #f7f7f7;
+    --secondary-dark: #222222;
+
+    /* Accent Colors */
+    --accent-color: #ff5733;
+    --accent-foreground: #ffffff;
+    --accent-light: #ff8268;
+    --accent-dark: #cc4722;
+
+    /* Border Colors */
+    --border-primary: #cccccc;
+    --border-secondary: #999999;
+    --border-light: #e0e0e0;
+    --border-dark: #666666;
+
+    /* Arihant Colors */
+    --arihant-red: #ed4c4c;
+    --arihant-brown: rgba(80, 17, 9, 0.52);
+    --arihant-footer-brown: rgba(115, 43, 33, 0.4);
+    --arihant-cream: #f6edd4;
+    --arihant-yellow: #e9c635;
+    --arihant-gray: #d9d9d9;
+    --arihant-wooden-bg: url('/images/wooden_background.jpg');
+  }
+
+  body {
+  font-family: "Jaini Purva", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+}
+
+@layer utilities {
+  /* Background Color Utilities */
+  .bg-primary-yellow {
+    background-color: var(--primary-background);
+  }
+
+  .bg-primary-light {
+    background-color: var(--primary-light);
+  }
+
+  .bg-primary-dark {
+    background-color: var(--primary-dark);
+  }
+
+  .bg-secondary-white {
+    background-color: var(--secondary-background);
+  }
+
+  .bg-secondary-light {
+    background-color: var(--secondary-light);
+  }
+
+  .bg-secondary-dark {
+    background-color: var(--secondary-dark);
+  }
+
+  .bg-accent {
+    background-color: var(--accent-color);
+  }
+
+  .bg-accent-light {
+    background-color: var(--accent-light);
+  }
+
+  .bg-accent-dark {
+    background-color: var(--accent-dark);
+  }
+
+  .bg-arihant-red {
+    background-color: var(--arihant-red);
+  }
+
+  .bg-arihant-brown {
+    background-color: var(--arihant-brown);
+  }
+
+  .bg-arihant-footer-brown {
+    background-color: var(--arihant-footer-brown);
+  }
+
+  .bg-arihant-cream {
+    background-color: var(--arihant-cream);
+  }
+
+  .bg-arihant-yellow {
+    background-color: var(--arihant-yellow);
+  }
+
+  .bg-arihant-gray {
+    background-color: var(--arihant-gray);
+  }
+  
+  .bg-wooden {
+    background-image: var(--arihant-wooden-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+
+  /* Text Color Utilities */
+  .text-primary-black {
+    color: var(--primary-foreground);
+  }
+
+  .text-secondary-gray {
+    color: var(--secondary-foreground);
+  }
+
+  .text-accent-white {
+    color: var(--accent-foreground);
+  }
+
+  .text-arihant-red {
+    color: var(--arihant-red);
+  }
+
+  .text-arihant-cream {
+    color: var(--arihant-cream);
+  }
+
+  .text-arihant-yellow {
+    color: var(--arihant-yellow);
+  }
+
+  /* Border Color Utilities */
+  .border-primary {
+    border-color: var(--border-primary);
+  }
+
+  .border-secondary {
+    border-color: var(--border-secondary);
+  }
+
+  .border-light {
+    border-color: var(--border-light);
+  }
+
+  .border-dark {
+    border-color: var(--border-dark);
+  }
+}
