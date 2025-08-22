@@ -7,7 +7,7 @@ interface HeroSectionProps {
 const HeroSection: React.FC<HeroSectionProps> = ({ className = "" }) => {
   return (
     <section 
-      className={`relative w-full h-[739px] flex items-center justify-center ${className}`}
+      className={`relative w-full h-[800px] flex items-center justify-center ${className}`}
       style={{ backgroundColor: '#ed4c4c' }}
     >
       <div className="text-center">

@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ className = "" }) => {
         style={{ backgroundColor: 'rgba(81, 17, 9, 0.61)' }}
       >
         {/* Left: Logos */}
-        <div className="flex items-center space-x-2 sm:space-x-4">
+        <Link to="/" className="flex items-center space-x-2 sm:space-x-4">
           <img
             src="/images/img_jain_logo_2.png"
             alt="Jain Logo"
@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ className = "" }) => {
             alt="Arihant Foods Logo"
             className="w-28 h-auto sm:w-40 md:w-[200px] object-contain"
           />
-        </div>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8 text-lg md:text-2xl lg:text-4xl" style={{ fontFamily: 'Jaini Purva' }}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/common/Header';
-import HeroSection from '../../components/common/HeroSection';
+import HeroSection from './HeroSection';
 import Footer from '../../components/common/Footer';
 import AboutSection from './AboutSection';
 import ProductsSection from './ProductsSection';

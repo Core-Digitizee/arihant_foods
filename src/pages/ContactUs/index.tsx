@@ -1,5 +1,7 @@
 import Footer from "../../components/common/Footer";
 import Header from "../../components/common/Header";
+import GetInTouch from "./GetInTouch";
+import FindUs from "./FindUs";
 
 const ContactUs: React.FC = () => {
   return (
@@ -7,6 +9,8 @@ const ContactUs: React.FC = () => {
       <Header />
       
       <main>
+        <GetInTouch />
+        <FindUs />
       </main>
       
       <Footer />
