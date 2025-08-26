@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 interface FooterProps {
   className?: string;
@@ -38,10 +39,18 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
           <div className="mb-6 sm:mb-0">
             <h3 className="text-xl sm:text-2xl lg:text-[32px] mb-4">Explore</h3>
             <div className="space-y-2">
-              <div className="hover:text-gray-200 cursor-pointer">Home</div>
-              <div className="hover:text-gray-200 cursor-pointer">About Us</div>
-              <div className="hover:text-gray-200 cursor-pointer">Products</div>
-              <div className="hover:text-gray-200 cursor-pointer">Contact Us</div>
+              <Link to="/">
+                <div className="hover:text-gray-200 cursor-pointer">Home</div>
+              </Link>
+              <Link to="/about">
+                <div className="hover:text-gray-200 cursor-pointer">About Us</div>
+              </Link>
+              <Link to="/products">
+                <div className="hover:text-gray-200 cursor-pointer">Products</div>
+              </Link>
+              <Link to="/contact">
+                <div className="hover:text-gray-200 cursor-pointer">Contact Us</div>
+              </Link>
             </div>
           </div>
 
@@ -59,7 +68,7 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
               </div>
               <div className="flex items-center justify-center md:justify-start">
                 <img src="/images/img_untitled_design_1_3.png" className="w-6 sm:w-[32px] h-6 sm:h-[32px] mr-2" />
-                arihantfoods@gmail.com
+                <a href="mailto:arihantfoods@gmail.com">arihantfoods@gmail.com</a>
               </div>
             </div>
           </div>

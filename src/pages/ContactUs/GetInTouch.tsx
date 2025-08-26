@@ -140,7 +140,7 @@ const GetInTouch: React.FC<GetInTouchProps> = ({ className = '' }) => {
                   value={formData.name}
                   onChange={handleInputChange}
                   placeholder="Enter Your Name"
-                  className="w-full px-4 py-3 rounded-lg border border-[#d0c4a6] bg-white text-[#23180d] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6d3121]"
+                  className="w-full px-4 py-3 rounded-lg border bg-[#f6edd4] border-[#d0c4a6]  text-[#23180d] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6d3121]"
                   style={{ fontFamily: 'Jaini Purva' }}
                   required
                 />
@@ -158,7 +158,7 @@ const GetInTouch: React.FC<GetInTouchProps> = ({ className = '' }) => {
                   value={formData.email}
                   onChange={handleInputChange}
                   placeholder="Enter Your Email"
-                  className="w-full px-4 py-3 rounded-lg border border-[#d0c4a6] bg-white text-[#23180d] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6d3121]"
+                  className="w-full px-4 py-3 rounded-lg border border-[#d0c4a6] bg-[#f6edd4] text-[#23180d] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6d3121]"
                   style={{ fontFamily: 'Jaini Purva' }}
                   required
                 />
@@ -176,7 +176,7 @@ const GetInTouch: React.FC<GetInTouchProps> = ({ className = '' }) => {
                   value={formData.phone}
                   onChange={handleInputChange}
                   placeholder="Enter Your Phone Number"
-                  className="w-full px-4 py-3 rounded-lg border border-[#d0c4a6] bg-white text-[#23180d] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6d3121]"
+                  className="w-full px-4 py-3 rounded-lg border border-[#d0c4a6] bg-[#f6edd4] text-[#23180d] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6d3121]"
                   style={{ fontFamily: 'Jaini Purva' }}
                   required
                 />
@@ -192,7 +192,7 @@ const GetInTouch: React.FC<GetInTouchProps> = ({ className = '' }) => {
                   name="subject"
                   value={formData.subject}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 rounded-lg border border-[#d0c4a6] bg-white text-[#23180d] focus:outline-none focus:ring-2 focus:ring-[#6d3121]"
+                  className="w-full px-4 py-3 rounded-lg border border-[#d0c4a6] bg-[#f6edd4] text-[#23180d] focus:outline-none focus:ring-2 focus:ring-[#6d3121]"
                   style={{ fontFamily: 'Jaini Purva' }}
                   required
                 >
@@ -215,7 +215,7 @@ const GetInTouch: React.FC<GetInTouchProps> = ({ className = '' }) => {
                   value={formData.message}
                   onChange={handleInputChange}
                   placeholder="How can we help you?"
-                  className="w-full px-4 py-3 rounded-lg border border-[#d0c4a6] bg-white text-[#23180d] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6d3121] resize-none flex-1"
+                  className="w-full px-4 py-3 rounded-lg border border-[#d0c4a6] bg-[#f6edd4] text-[#23180d] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#6d3121] resize-none flex-1"
                   style={{ fontFamily: 'Jaini Purva' }}
                   required
                 />
@@ -224,7 +224,7 @@ const GetInTouch: React.FC<GetInTouchProps> = ({ className = '' }) => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-[#f9f0f0] text-[#000000] py-3 px-6 rounded-lg font-semibold hover:bg-[#f6edd4] transition-colors focus:outline-none focus:ring-2 focus:ring-[#6d3121] focus:ring-offset-2"
+                className="w-full bg-[#f6edd4] text-[#000000] py-3 px-6 rounded-lg font-semibold hover:bg-[#f6edd4] transition-colors focus:outline-none focus:ring-2 focus:ring-[#6d3121] focus:ring-offset-2"
                 style={{ fontFamily: 'Jaini Purva' }}
               >
                 Submit
